@@ -18,7 +18,11 @@ jobs:
           process-only: prs
           skip-closed-pr-comment: true
           pr-comment: >
-            This repository has been moved to [GitLab](https://gitlab.com/gitlab-org/terraform-provider-gitlab).
-            We welcome contributions [here](ttps://gitlab.com/gitlab-org/terraform-provider-gitlab/merge_requests) :tada:
-            See the [README](README.md) for details.
+            Thank you very much for your contribution :heart: 
+            
+            However, we'd like to inform you that this repository has been moved to [GitLab](https://gitlab.com/gitlab-org/terraform-provider-gitlab).
+            
+            We'd like to welcome your contributions [there](https://gitlab.com/gitlab-org/terraform-provider-gitlab/merge_requests) :tada:
+            
+            There is more infromation in the [README](README.md).
             
