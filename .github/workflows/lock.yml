@@ -17,12 +17,10 @@ jobs:
         with: 
           process-only: prs
           skip-closed-pr-comment: true
-          pr-comment: >
+          pr-comment: |
             Thank you very much for your contribution :heart: 
             
             However, we'd like to inform you that this repository has been moved to [GitLab](https://gitlab.com/gitlab-org/terraform-provider-gitlab).
             
             We'd like to welcome your contributions [there](https://gitlab.com/gitlab-org/terraform-provider-gitlab/merge_requests) :tada:
-            
-            There is more infromation in the [README](README.md).
             
