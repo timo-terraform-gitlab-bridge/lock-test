@@ -1,0 +1,24 @@
+name: 'Repo Lockdown'
+
+on:
+  pull_request_target:
+    types: opened
+  schedule:
+    - cron: '0 * * * *'
+
+permissions:
+  pull-requests: write
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/repo-lockdown@v2
+        with: 
+          process-only: prs
+          skip-closed-pr-comment: true
+          pr-comment: >
+            This repository has been moved to [GitLab](https://gitlab.com/gitlab-org/terraform-provider-gitlab).
+            We welcome contributions [here](ttps://gitlab.com/gitlab-org/terraform-provider-gitlab/merge_requests) :tada:
+            See the [README](README.md) for details.
+            
